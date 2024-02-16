@@ -269,6 +269,78 @@
   font-weight: 600;
   text-decoration: none;
 }
+.cta-child > img{
+    display: none;
+}
+
+/* cat gray section start  */
+.section-cat-gray {
+    padding-top: 30px;
+    background-color: #f2f7f2;
+}
+.section-cat-gray h2{
+   width: 80%;
+   font-size: 34px;
+   font-weight: 300;
+   color: black;
+   font-family: serif;
+   padding: 10px;
+}
+.gray h3{
+   color: gray;
+   padding: 5px 10px;
+   font-weight: normal;
+}
+.gray p{
+    color: gray;
+    padding: 5px 10px;
+}
+.gray-img > img{
+    width: 100%;
+}
+
+    .icons-1{
+        display: flex;
+        gap: 5px;
+        padding: 10px 10px;
+    }
+    .icons-2{
+        display: flex;
+        gap: 10px;
+        padding-left: 10px;
+        padding: 10px;
+    }
+    .icons-2 h5 {
+        color: black;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .icons-3{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        padding: 30px 10px;
+    }
+    .icons-3 > div{
+        width: 30%;
+        height: auto;
+    }
+    .icons-3 > div > button{
+        border: none;
+        background-color: #fff;
+        color: black;
+        font-weight: 600;
+        border-radius: 30px;
+        padding: 10px 30px;
+        height: auto;
+    }
+
+    
+/* cat gray section ended */
+
+
+
+
 }
  @media only screen and (min-width: 400px) {
     /* navbar started  */
@@ -542,6 +614,9 @@
       font-weight: 600;
       text-decoration: none;
     }
+    .cta-child > img{
+        display: none;
+    }
 
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -674,7 +749,7 @@
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        height: 30em;
+        height: 33em;
         width: 98%;
     }
     .hero-content > h1{
@@ -704,9 +779,18 @@
     .section-cta{
         display: flex;
         height: auto;
-        width: 85%;
+        width: 95%;
         border-radius: 20px;
         padding: 30px;
+    }
+    .cta-child > img{
+        display: block;
+        border-radius: 20px;
+    }
+    .section-1{
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 5em;
     }
 }
 

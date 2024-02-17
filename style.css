@@ -486,15 +486,87 @@
   .post-child {
     display: flex;
     flex-direction: column;
-    height: 20em;
-    overflow: hidden;
-    gap: 20px;
+    height: 12em;
+    /* overflow: hidden; */
+    gap: 10px;
     padding-left: 20px;
   }
-  .post-child a{
+  .post-links{
+    display: none;
+  }
+  #post-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #post-links a{
     text-decoration: none;
     color: gray;
+    font-size: 15px;
   }
+
+/* footer started  */
+footer{
+  height: 65em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-child{
+  background-color: #001e00;
+  height: 90%;
+  width: 90%;
+  border-radius: 20px;
+  padding: 20px 20px;
+}
+.footer-child-child{
+  border-top: 1px solid #fff;
+  height: 90%;
+  padding: 10px 15px;
+}
+.footer-part div{
+  border-bottom: 1px solid  #fff;
+  color: #f2f2f2;
+  padding: 20px 10px;
+}
+#footer-part{
+  color: #fff;
+  margin-top: 50px;
+}
+#social-icons{
+  display: flex;
+  padding: 15px 0px;
+  gap: 8px;
+}
+.social-icons{
+  padding: 10px 16px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.social-icons i{
+  color: #fff;
+}
+.foot-child{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-right: 50px;
+  padding: 10px;
+}
+.foot-child a{
+  text-decoration: none;
+  color: #fff;
+}
+.foot-part{
+  color: #fff;
+  margin: 20px 0px 20px 0px;
+}
+
+.footer-big-screen{
+  display: none;
+}
+
+
 }
 @media only screen and (min-width: 400px) {
   /* navbar started  */
@@ -617,23 +689,6 @@
   .special-child {
     display: none;
   }
-  Development & IT Projects
-AI & Machine Learning
-Desktop Apps
-Generative AI
-Other Development & IT
-Blockchain, NFT & Cryptocurrency
-Development
-Machine Learning
-Web Programming
-Chatbots
-Ecommerce Development
-Mobile Apps
-Website Builders & CMS
-Databases
-Game Development
-Online Coding Lessons
-WordPress
 
   /* section started  */
   .section {
@@ -968,6 +1023,123 @@ WordPress
     width: 100%;
   }
   /* service ended  */
+
+/* post started  */
+.post {
+  height: 20em;
+  margin-top: 50px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.post h2 {
+  font-family: serif;
+  color: black;
+  font-size: 32px;
+}
+
+.post h3 {
+  font-size: 22px;
+  color: black;
+}
+
+.post a {
+  color: gray;
+  text-decoration: none;
+}
+
+.post-child {
+  display: flex;
+  flex-direction: column;
+  height: 12em;
+  /* overflow: hidden; */
+  gap: 10px;
+  padding-left: 20px;
+}
+.post-links{
+  display: none;
+}
+#post-links{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#post-links a{
+  text-decoration: none;
+  color: gray;
+  font-size: 15px;
+}
+
+/* post ended  */
+
+/* footer started  */
+footer{
+  height: 65em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-child{
+  background-color: #001e00;
+  height: 90%;
+  width: 90%;
+  border-radius: 20px;
+  padding: 20px 20px;
+}
+.footer-child-child{
+  border-top: 1px solid #fff;
+  height: 90%;
+  padding: 10px 15px;
+}
+.footer-part div{
+  border-bottom: 1px solid  #fff;
+  color: #f2f2f2;
+  padding: 20px 10px;
+}
+#footer-part{
+  color: #fff;
+  margin-top: 50px;
+}
+#social-icons{
+  display: flex;
+  padding: 15px 0px;
+  gap: 8px;
+}
+.social-icons{
+  padding: 10px 16px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.social-icons i{
+  color: #fff;
+}
+.foot-child{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-right: 50px;
+  padding: 10px;
+}
+.foot-child a{
+  text-decoration: none;
+  color: #fff;
+}
+.foot-part{
+  color: #fff;
+  margin: 20px 0px 20px 0px;
+}
+.footer-big-screen{
+  display: none;
+}
+
+
+
+
+
+
+
+
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -1289,5 +1461,121 @@ WordPress
     display: flex;
     flex-direction: row;
     width: 70%;
+  }
+  .post {
+    height: 20em;
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 80px;
+  }
+  .post h2 {
+    font-family: serif;
+    color: black;
+    font-size: 32px;
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .post h3 {
+    font-size: 28px;
+    color: black;
+  }
+
+  .post a {
+    color: gray;
+    text-decoration: none;
+  }
+  .post-post{
+    padding-left: 30px;
+    margin-left: 30px;
+  }
+  .post-post h3{
+    margin: 0px 0px 30px 20px;
+  }
+  .post-child {
+    display: flex;
+    flex-direction: row;
+    height: 12em;
+    overflow: hidden;
+    gap: 80px;
+    padding-left: 20px;
+  }
+  .post-links{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #post-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #post-links a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+  }
+  .post-links a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+  }
+
+  .footer-part{
+    display: none;
+  }
+  .footer-big-screen{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  .big-screen-links{
+    color: #fff;
+  }
+  .big-screen-links div{
+    margin-bottom: 40px;
+    color: rgb(226, 220, 220);
+  }
+  .important-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .important-links a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .important-links a:hover{
+    text-decoration: underline;
+  }
+  .footer-child{
+    padding: 100px 50px;
+    height: 95%;
+  }
+  .main-footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  #footer-part{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .foot{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .foot-child{
+    display: flex;
+    flex-direction: row;
+  }
+  .foot-child a:hover{
+    text-decoration: underline;
   }
 }

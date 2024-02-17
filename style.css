@@ -72,6 +72,7 @@
     height: 18em;
     width: 90%;
     background-color: #14a800;
+    margin-top: 80px;
     border-radius: 20px;
     color: #fff;
   }
@@ -319,24 +320,24 @@
     gap: 5px;
     padding: 30px 10px;
   }
-  .icons-3 > div{
-      background-color: #fff;
-      width: 30%;
-      padding: 10px 40px;
-      border-radius: 30px;
-    }
-    .icons-3 > #special-child{
-        width: 50%;
-        color: black;
-        padding: 10px;
+  .icons-3 > div {
+    background-color: #fff;
+    width: 30%;
+    padding: 10px 40px;
+    border-radius: 30px;
   }
-  #s-heading{
+  .icons-3 > #special-child {
+    width: 50%;
+    color: black;
+    padding: 10px;
+  }
+  #s-heading {
     display: none;
   }
   /* cat gray section ended */
 
-/* new cat gray started  */
-section{
+  /* new cat gray started  */
+  section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -344,60 +345,156 @@ section{
     height: 55em;
     background-color: #f2f7f2;
     gap: 20px;
-}
-.new{
+  }
+  .new {
     width: 95%;
-}
-section div img{
+  }
+  section div img {
     height: 20em;
     width: 100%;
     border-radius: 20px;
-}
-.new > h2{
+  }
+  .new > h2 {
     width: 80%;
     font-family: serif;
     font-size: 28px;
     font-weight: 500;
     color: black;
-}
-.rocket{
+  }
+  .rocket {
     display: flex;
     padding-left: 10px;
     gap: 5px;
-}
-.dark-text > h5{
+  }
+  .dark-text > h5 {
     color: black;
     font-size: 15px;
-}
-.new-para{
+  }
+  .new-para {
     font-weight: 500;
     font-size: 18px;
     color: #5e6d55;
-}
-#rocket{
+  }
+  #rocket {
     background-color: #108a00;
     border: none;
     border-radius: 30px;
     padding: 5px 15px;
     margin-top: 20px;
-}
-#rocket > a{
+  }
+  #rocket > a {
     text-decoration: none;
     color: #fff;
-}
+  }
 
-/* new cat gray ended  */
+  /* new cat gray ended  */
 
+  /* service started  */
+  .service {
+    height: 60em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+  }
+  .service-child {
+    background-color: #f2f7f2;
+    padding: 30px;
+    width: 100%;
+  }
+  .service-child div h2 {
+    font-size: 30px;
+    font-family: serif;
+    width: 80%;
+    font-weight: 500;
+    padding: 10px;
+    color: #001e00;
+  }
 
+  .service-child div div h3 {
+    color: #001e00;
+    padding: 20px 0px;
+  }
+  .service-child div button {
+    background-color: transparent;
+    border: none;
+  }
 
+  .service-child div button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1f7ad1;
+  }
 
+  #service-child {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  #service-child div h4 {
+    font-size: 16px;
+    width: 100%;
+    font-weight: normal;
+  }
 
+  #service-child span i {
+    color: #1f7ad1;
+    font-weight: normal;
+  }
+  .star-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 110%;
+    margin: 0;
+  }
+  .star-child div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .star-child div div h3 {
+    width: 100%;
+  }
+  /* service ended  */
 
+  .post {
+    height: 20em;
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .post h2 {
+    font-family: serif;
+    color: black;
+    font-size: 32px;
+  }
 
+  .post h3 {
+    font-size: 22px;
+    color: black;
+  }
 
+  .post a {
+    color: gray;
+    text-decoration: none;
+  }
 
-
-
+  .post-child {
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    overflow: hidden;
+    gap: 20px;
+    padding-left: 20px;
+  }
+  .post-child a{
+    text-decoration: none;
+    color: gray;
+  }
 }
 @media only screen and (min-width: 400px) {
   /* navbar started  */
@@ -474,6 +571,7 @@ section div img{
     height: 18em;
     width: 90%;
     background-color: #14a800;
+    margin-top: 80px;
     border-radius: 20px;
     color: #fff;
   }
@@ -519,6 +617,23 @@ section div img{
   .special-child {
     display: none;
   }
+  Development & IT Projects
+AI & Machine Learning
+Desktop Apps
+Generative AI
+Other Development & IT
+Blockchain, NFT & Cryptocurrency
+Development
+Machine Learning
+Web Programming
+Chatbots
+Ecommerce Development
+Mobile Apps
+Website Builders & CMS
+Databases
+Game Development
+Online Coding Lessons
+WordPress
 
   /* section started  */
   .section {
@@ -720,19 +835,19 @@ section div img{
     gap: 5px;
     padding: 30px 10px;
   }
-  .icons-3 > div{
-      background-color: #fff;
-      width: 30%;
-      padding: 10px 40px;
-      border-radius: 30px;
-    }
-    .icons-3 > #special-child{
-        width: 50%;
-        color: black;
-        padding: 10px;
+  .icons-3 > div {
+    background-color: #fff;
+    width: 30%;
+    padding: 10px 40px;
+    border-radius: 30px;
+  }
+  .icons-3 > #special-child {
+    width: 50%;
+    color: black;
+    padding: 10px;
   }
   /* new cat gray started  */
-section{
+  section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -740,59 +855,119 @@ section{
     height: 55em;
     background-color: #f2f7f2;
     gap: 20px;
-}
-.new{
+  }
+  .new {
     width: 95%;
-}
-section div img{
+  }
+  section div img {
     height: 20em;
     width: 100%;
     border-radius: 20px;
-}
-.new > h2{
+  }
+  .new > h2 {
     width: 80%;
     font-family: serif;
     font-size: 28px;
     font-weight: 500;
     color: black;
-}
-.rocket{
+  }
+  .rocket {
     display: flex;
     padding-left: 10px;
     gap: 5px;
-}
-.dark-text > h5{
+  }
+  .dark-text > h5 {
     color: black;
     font-size: 15px;
-}
-.new-para{
+  }
+  .new-para {
     font-weight: 500;
     font-size: 18px;
     color: #5e6d55;
-}
-#rocket{
+  }
+  #rocket {
     background-color: #108a00;
     border: none;
     border-radius: 30px;
     padding: 5px 15px;
     margin-top: 20px;
-}
-#rocket > a{
+  }
+  #rocket > a {
     text-decoration: none;
     color: #fff;
-}
+  }
 
-/* new cat gray ended  */
+  /* new cat gray ended  */
 
+  /* service started  */
+  .service {
+    height: 60em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+  }
+  .service-child {
+    background-color: #f2f7f2;
+    padding: 30px;
+    width: 100%;
+  }
+  .service-child div h2 {
+    font-size: 30px;
+    font-family: serif;
+    width: 80%;
+    font-weight: 500;
+    padding: 10px;
+    color: #001e00;
+  }
 
+  .service-child div div h3 {
+    color: #001e00;
+    padding: 20px 0px;
+  }
+  .service-child div button {
+    background-color: transparent;
+    border: none;
+  }
 
+  .service-child div button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1f7ad1;
+  }
 
+  #service-child {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  #service-child div h4 {
+    font-size: 16px;
+    width: 100%;
+    font-weight: normal;
+  }
 
-
-
-
-
-
+  #service-child span i {
+    color: #1f7ad1;
+    font-weight: normal;
+  }
+  .star-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 110%;
+    margin: 0;
+  }
+  .star-child div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .star-child div div h3 {
+    width: 100%;
+  }
+  /* service ended  */
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -840,7 +1015,7 @@ section div img{
   .cat-child {
     width: 20%;
   }
-  .new > img{
+  .new > img {
     display: none;
   }
 }
@@ -966,7 +1141,7 @@ section div img{
   }
 
   /* cat gray started  */
-  .section-cat-gray{
+  .section-cat-gray {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -975,85 +1150,144 @@ section div img{
     height: 50em;
     padding-left: 30px;
   }
-  .section-cat-gray h2{
+  .section-cat-gray h2 {
     display: none;
   }
-  #s-heading{
+  #s-heading {
     display: block;
     padding: 0;
   }
-  .gray-img{
+  .gray-img {
     width: 90%;
     margin-right: 30px;
   }
-  .gray-img > img{
+  .gray-img > img {
     border-radius: 20px;
   }
-  #gray{
+  #gray {
     width: 100%;
     height: 100%;
     padding: 200px 0px 0px 50px;
   }
-  .cats{
+  .cats {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     padding-left: 100px;
   }
-  .gray h3{
+  .gray h3 {
     font-size: 20px;
     color: rgb(68, 67, 67);
     width: 90%;
     padding: 0;
   }
-  .gray p{
+  .gray p {
     font-size: 16px;
     width: 90%;
     color: rgb(68, 67, 67);
     padding: 0;
   }
-  .icons-3 > div{
+  .icons-3 > div {
     width: 15%;
     padding: 10px 0px;
     text-align: center;
-
   }
   .parent {
     display: flex;
   }
-  .icons-3 > #special-child{
+  .icons-3 > #special-child {
     width: 30%;
   }
   /* cat gray ended  */
 
-  section{
+  section {
     flex-direction: row;
     height: 40em;
   }
-  .new{
+  .new {
     display: flex;
   }
-  .new > h2{
+  .new > h2 {
     display: none;
   }
-  .new > img{
+  .new > img {
     display: block;
     width: 100%;
     height: 30em;
   }
-  .label{
+  .label {
     padding: 100px 0px 0px 100px;
   }
-  .new-heading{
+  .new-heading {
     display: block;
     font-family: serif;
     width: 70%;
     font-size: 35px;
   }
-  .new-para{
+  .new-para {
     font-size: 16px;
     font-weight: normal;
     width: 80%;
+  }
+  /* service started */
+
+  .service {
+    height: 70em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .service div {
+    display: flex;
+  }
+  .service {
+    background-color: #fff;
+  }
+  .service-child {
+    background-color: #f2f7f2;
+    width: 90%;
+    margin-top: 150px;
+    border-radius: 20px;
+    height: 80%;
+  }
+
+  .service-child div h2 {
+    font-size: 40px;
+    width: 100%;
+  }
+  .star-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .star-child {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 110%;
+  }
+  .star-child div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+    text-align: left;
+  }
+  .star-child div div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .star-child div div h3 {
+    width: 70%;
+  }
+  .star-child div div p {
+    width: 70%;
+  }
+  #service-child {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
   }
 }
